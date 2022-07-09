@@ -1,0 +1,585 @@
+body, h1, ul, li {
+  margin: 0;
+  padding: 0;
+  font-family:DFKai-sb;
+}
+body {
+    background: #ffc0cb;
+}
+h3{
+  text-align: center;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+@media (min-width: 576px) {
+    nav{
+      /* background: #eee;  */
+      box-shadow: 0px 1px 3px #00000088;
+    }
+      nav::after{
+        content:"";
+        display: block;
+        clear: both;
+      }
+    nav  h1{
+        font: left;
+        padding-left: 50px;
+        line-height: 50px;
+    }
+
+    /* 隱藏checkbox */
+    input{
+      display: none;
+    }
+    label{
+      float: right;
+      padding-right: 5px;
+      line-height: 5px;
+      cursor:pointer;
+    }
+    label img{
+        height: 50px;
+        width: 50px;
+        vertical-align: middle;
+    }
+    .menu{
+      clear: both;
+      /* background: #fff; */
+    }
+    .menu li{
+        text-align: center;
+        border-bottom: 1px solid #efefef;
+    }
+    .menu li  a{
+          display: block;
+          line-height: 50px;
+          font-size: 18px;
+          color: #5d5d5d;
+    }
+    .menu li a:hover {
+            background:#5d5d5d;
+            color: #fff;
+    }
+    .menu{
+      max-height: 0;
+      overflow: hidden;
+      transition: .2s;
+    }
+    input:checked ~ .menu{
+      max-height: 300px;
+    }
+
+
+
+    .imagebox{
+      background-image: url(../img/25471.jpg);
+      background-repeat:no-repeat;
+      padding:40px;
+      background-size:cover;
+    }
+
+
+    #jmetext{
+       border-radius:50px;
+       opacity:0.5;
+       border-radius:20px;
+       padding:20px;
+       background: #fff;
+    }
+    #jmetext button{
+        height: 60px;
+        width: 200px;
+        border-radius: 10px;
+        border: none;
+    }
+    .introduce{
+      background-color: #FDB99B;
+      background-repeat:no-repeat;
+      padding:25px;
+      background-size:cover;
+    }
+    .introduce img{
+      border-radius: 200px;
+      position:absolute;
+      top: 370px;
+      left: 400px;
+      width: 200px;
+      height: 200px;
+    }
+    .introduce h1{
+    margin: 167px 0 0 0;
+      width: 100%;
+      height: 100px;
+      text-align: center;
+      font-size: 50px;
+       opacity:0.5;
+    }
+    .box{
+      width: 100%;
+      height: 350px;
+      background: #fff;
+    }
+    .box h3{
+      padding: 0;
+      margin: 0;
+      text-align: center;
+      font-size: 45px;
+    }
+
+
+    #food{
+          width: 100%;
+          height: 350px;
+          float: none;
+          background: #fff;
+          margin-right: 0;
+          margin-left: 0;
+          margin-top: 0;
+          margin-bottom: 10px;
+          padding: 0;
+          border-radius: 20px;
+          background: #fff;
+          border-style: solid;
+          border-width: 0.5px;
+          border-color: #bdc3c7;
+          text-align: center;
+      }
+
+    #food img{
+      height: 200px;
+      width: 100%;
+      background-size:cover;
+      background-repeat:no-repeat;
+      border-radius:20px;
+    }
+    .order{
+
+      width: 100%;
+      height: 100%;
+      background: #203A43;
+    }
+    .order iframe{
+      width: 66%;
+      height: 244px;
+      margin-top: 0;
+      margin-left: 235px;
+      margin-bottom: 50px;
+    }
+    .order h3{
+      margin: 0px;
+      padding: 0;
+      font-size: 45px;
+    }
+    #textbox {
+          color: #fff;
+          line-height: 25px;
+          width: 250px;
+          height: 350px;
+          margin-left: 370px;
+          text-align: center;
+          margin-bottom: 0;
+    }
+    #textbox a{
+      color: #fff;
+      text-decoration: none;
+    }
+    #textbox p{
+    font-size: 20px;
+    }
+    footer{
+      margin: 5px;
+      text-align: center;
+    }
+    #cost1,#cost2,#cost3,#cost4{
+      font-size: 40px;
+    }
+
+}
+@media (min-width: 768px){
+
+
+
+
+  nav{
+    /* background: #eee;  */
+    box-shadow: 0px 1px 3px #00000088;
+  }
+    nav::after{
+      content:"";
+      display: block;
+      clear: both;
+    }
+  nav  h1{
+      font: left;
+      padding-left: 50px;
+      line-height: 50px;
+  }
+
+  /* 隱藏checkbox */
+  input{
+    display: none;
+  }
+  label{
+    float: right;
+    padding-right: 5px;
+    line-height: 5px;
+    cursor:pointer;
+  }
+  label img{
+      height: 50px;
+      width: 50px;
+      vertical-align: middle;
+  }
+  .menu{
+    clear: both;
+    /* background: #fff; */
+  }
+  .menu li{
+      text-align: center;
+      border-bottom: 1px solid #efefef;
+  }
+  .menu li  a{
+        display: block;
+        line-height: 50px;
+        font-size: 18px;
+        color: #5d5d5d;
+  }
+  .menu li a:hover {
+          background:#5d5d5d;
+          color: #fff;
+  }
+  .menu{
+    max-height: 0;
+    overflow: hidden;
+    transition: .2s;
+  }
+  input:checked ~ .menu{
+    max-height: 300px;
+  }
+
+
+
+  .imagebox{
+    background-image: url(../img/25471.jpg);
+    background-repeat:no-repeat;
+    padding:40px;
+    background-size:cover;
+  }
+
+
+  #jmetext{
+     border-radius:50px;
+     opacity:0.5;
+     border-radius:20px;
+     padding:20px;
+     background: #fff;
+  }
+  #jmetext button{
+      height: 60px;
+      width: 200px;
+      border-radius: 10px;
+      border: none;
+  }
+  .introduce{
+    background-color: #FDB99B;
+    background-repeat:no-repeat;
+    padding:25px;
+    background-size:cover;
+  }
+  .introduce img{
+    border-radius: 200px;
+    position:absolute;
+    top: 370px;
+    left: 380px;
+    width: 200px;
+    height: 200px;
+  }
+  .introduce h1{
+  margin: 167px 0 0 0;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-size: 50px;
+     opacity:0.5;
+  }
+  .box{
+    width: 100%;
+    height: 100%;
+    background: #fff;
+  }
+  .box h3{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 45px;
+  }
+
+
+  #food{
+        width: 100%;
+        height: 100%;
+        float: none;
+        background: #fff;
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 0;
+        margin-bottom: 20px;
+        padding: 0;
+        border-radius: 20px;
+        background: #fff;
+        border-style: solid;
+        border-width: 0.5px;
+        border-color: #bdc3c7;
+        text-align: center;
+    }
+
+  #food img{
+    height: 300px;
+    width: 100%;
+    background-size:cover;
+    background-repeat:no-repeat;
+    border-radius:20px;
+  }
+  .order{
+
+    width: 100%;
+    height: 100%;
+    background: #203A43;
+  }
+  .order iframe{
+    width: 50%;
+    height: 300px;
+    margin-top: -20px;
+    margin-left: 270px;
+    margin-right:270px;
+    margin-bottom: 50px;
+  }
+  .order h3{
+    margin: -10px;
+    padding: 0;
+    font-size: 45px;
+  }
+  #textbox {
+        color: #fff;
+        line-height: 25px;
+        width: 250px;
+        height: 350px;
+        margin-left: 400px;
+        text-align: center;
+        margin-bottom: 0;
+  }
+  # a{
+    color: #fff;
+    text-decoration: none;
+  }
+  footer{
+    margin: 5px;
+    text-align: center;
+  }
+}
+@media (min-width: 992px) {
+  nav{
+    /* background: #eee;  */
+    box-shadow: 0px 1px 3px #00000088;
+  }
+    nav::after{
+      content:"";
+      display: block;
+      clear: both;
+    }
+  nav  h1{
+      font: left;
+      padding-left: 50px;
+      line-height: 50px;
+  }
+
+  /* 隱藏checkbox */
+  input{
+    display: none;
+  }
+  label{
+    float: right;
+    padding-right: 5px;
+    line-height: 5px;
+    cursor:pointer;
+  }
+  label img{
+      height: 50px;
+      width: 50px;
+      vertical-align: middle;
+  }
+  .menu{
+    clear: both;
+    /* background: #fff; */
+  }
+  .menu li{
+      text-align: center;
+      border-bottom: 1px solid #efefef;
+  }
+  .menu li  a{
+        display: block;
+        line-height: 50px;
+        font-size: 18px;
+        color: #5d5d5d;
+  }
+  .menu li a:hover {
+          background:#5d5d5d;
+          color: #fff;
+  }
+  .menu{
+    max-height: 0;
+    overflow: hidden;
+    transition: .2s;
+  }
+  input:checked ~ .menu{
+    max-height: 300px;
+  }
+
+    label{
+      display: none;
+    }
+    .menu{
+      margin: -50px 0 0 0;
+      float: right;
+      clear: none;
+      max-height: 50px;
+      /* background: #eee; */
+    }
+  .menu li{
+    display: inline-block;
+  }
+  .menu a{
+     padding: 0px 20px;
+  }
+
+
+  .imagebox{
+    background-image: url(../img/25471.jpg);
+    background-repeat:no-repeat;
+    padding:40px;
+    background-size:cover;
+  }
+  #jmetext{
+     border-radius:50px;
+     opacity:0.5;
+     border-radius:20px;
+     padding:20px;
+     background: #fff;
+  }
+  #jmetext button{
+      height: 60px;
+      width: 200px;
+      border-radius: 10px;
+      border: none;
+  }
+  .introduce{
+    background-color: #FDB99B;
+    background-repeat:no-repeat;
+    padding:200px;
+    background-size:cover;
+  }
+  .introduce img{
+    border-radius: 200px;
+    position:absolute;
+    top: 400px;
+    left: 30px;
+    width: 300px;
+    height: 300px;
+  }
+  .introduce h1{
+  margin: 0px 170px;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-size: 50px;
+     opacity:0.5;
+  }
+  .box{
+    width: 100%;
+    height: 400px;
+    background: #fff;
+  }
+  .box h3{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 45px;
+  }
+
+
+  #food{
+    width: 23%;
+    height: 80%;
+    float: left;
+    background: #fff;
+    margin-right: 15.5px;
+    margin-left: 15.5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0;
+    border-radius:20px;
+    background: #fff;
+    border-style: solid;
+    border-width:0.5px;
+    border-color: #bdc3c7;
+    text-align: center;
+    }
+
+  #food img{
+    height: 200px;
+    width: 100%;
+    background-size:cover;
+    background-repeat:no-repeat;
+    border-radius:20px;
+  }
+  .order{
+
+    width: 100%;
+    height: 400px;
+    background: #203A43;
+  }
+  .order iframe{
+    padding: 20px  20px;
+    width: 60%;
+    height: 300px;
+    margin-top: -287px;
+    margin-left: 300px;
+  }
+  .order h3{
+    margin: 0;
+    padding: 0;
+    font-size: 45px;
+  }
+  #textbox {
+  color: #fff;
+  line-height: 25px;
+  width: 250px;
+  height:350px;
+  margin-left:30px;
+  text-align: center;
+  margin-bottom: -80px;
+  }
+  #textbox a{
+    color: #fff;
+    text-decoration: none;
+  }
+
+  #cost1,#cost2,#cost3,#cost4
+  {
+    font-size: 30px;
+  }
+  footer{
+    margin: 5px;
+    text-align: center;
+  }
+@media (min-width: 1200px) {
+
+}
